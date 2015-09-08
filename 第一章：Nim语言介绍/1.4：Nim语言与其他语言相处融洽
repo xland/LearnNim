@@ -1,0 +1,4 @@
+- Nim的编译器可以运行在windows、linux、BSD、和mac上，所以，跨平台的问题对于Nim来说不是问题。
+- 如果有必要，Nim的编译器可以生成C++或者Object C代码，这样对外提供接口就会方便很多。
+- Nim可以使用很多现成的库，比如说GTK2、WindowsAPI、POSIX API、OpenGL、SDL、Cairo、Python、Lua、TCL、X11、libzip、PCRE、libcurl、mysql、sqlite等，就算你一时找不到，也可以到Nimble package manager来完成此项工作。
+- Nim提供了c2nim工具可以把C语言直接格式化成Nim语言，这样C语言开发的类库就很容易被Nim使用了。
